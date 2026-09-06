@@ -327,10 +327,14 @@ h1 {
 ========================= */
 
 footer {
-  display: flex;
-  align-items: center;
   padding: 25px 10%;
   background-color: aliceblue;
+}
+
+footer .footer-content{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 #logo {
@@ -360,7 +364,7 @@ footer li a:hover {
   color: hsl(210, 10%, 33%);
 }
 
-footer > div {
+.footer-content div{
   display: flex;
   gap: 15px;
   margin-left: auto;
