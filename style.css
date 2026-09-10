@@ -423,6 +423,12 @@ footer > div a {
   }
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .companies-track:hover {
+    animation-play-state: paused;
+  }
+}
+
 
 /* =========================
    Tablet
