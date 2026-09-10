@@ -192,7 +192,7 @@ h1 {
 }
 
 .access-clipboard img {
-  width: min(100%, 812px);
+  width: min(100%, 50.75rem);
   height: auto;
 }
 
@@ -259,7 +259,7 @@ h1 {
   display: flex;
   align-items: center;
   width: max-content;
-  gap: 80px;
+  gap: 5rem;
   margin: 2.5rem 0;
   animation: scroll 15s linear infinite;
 }
@@ -335,11 +335,10 @@ footer {
 footer ul {
   display: grid;
   grid-template-columns: repeat(3, minmax(6.25rem, 1fr));
-  gap: 15px 40px;
+  gap: 0.9375rem 2.5rem;
   padding: 0;
   margin-left: 5rem;
   list-style: none;
-  text-align: left;
 }
 
 footer li {
@@ -355,18 +354,18 @@ footer li a:hover {
   color: hsl(210, 10%, 33%);
 }
 
-.social-links {
-  display: flex;
-  gap: 15px;
-  margin-left: auto;
-}
-
 footer > div img {
   margin: 0;
 }
 
 footer > div a {
   line-height: 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 0.9375rem;
+  margin-left: auto;
 }
 
 /* =========================
@@ -430,7 +429,7 @@ footer > div a {
   }
 
   .snippets-layout > img {
-    width: min(100%, 752px);
+    width: min(100%, 47rem);
     margin: 0 0 3.125rem;
   }
 
@@ -457,7 +456,7 @@ footer > div a {
   }
 
   .workflow-item {
-    width: min(100%, 500px);
+    width: min(100%, 31.25rem);
     max-width: none;
   }
 
@@ -468,12 +467,12 @@ footer > div a {
   }
 
   footer ul {
-    gap: 15px 25px;
+    gap: 0.9375rem 1.5625rem;
     margin-left: 3.125rem;
   }
 
   .social-links {
-    gap: 12px;
+    gap: 0.75rem;
     /* flex-direction: column; */
     margin-left: 0
   }
@@ -508,7 +507,7 @@ footer > div a {
 
   .btn {
     display: block;
-    width: min(85%, 420px);
+    width: min(85%, 26.25rem);
     margin: 0.625rem auto;
   }
 
@@ -557,7 +556,7 @@ footer > div a {
   }
 
   .platforms .btn {
-    width: min(85%, 420px);
+    width: min(85%, 26.25rem);
     margin: 0.625rem auto;
   }
 
@@ -569,7 +568,7 @@ footer > div a {
 
   .footer-content {
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
     padding: 2.1875rem 1.25rem;
     text-align: center;
   }
@@ -582,8 +581,8 @@ footer > div a {
   footer ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px 40px;
-    width: min(100%, 300px);
+    gap: 1.25rem 2.5rem;
+    width: min(100%, 18.75rem);
     margin: 0;
   }
 
@@ -593,7 +592,7 @@ footer > div a {
 
   .social-links {
     margin-left: 0;
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   /* Attribution */
