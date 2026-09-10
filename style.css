@@ -36,14 +36,14 @@ header img {
 }
 
 h1 {
-  max-width: 650px;
+  max-width: 40.625rem;
   margin: 1.25rem auto 0;
   font-size: 2.5rem;
   line-height: 1.2;
 }
 
-#header-p {
-  max-width: 570px;
+.header-description {
+  max-width: 35.625rem;
   margin: 1.25rem auto;
   color: hsl(201, 11%, 66%);
   line-height: 1.5;
@@ -104,25 +104,25 @@ h1 {
 
 .feature-intro h2,
 .second-article h2,
-#workflow-section h2 {
+.workflow-section h2 {
   color: hsl(210, 10%, 33%);
 }
 
 .feature-intro h2 {
-  max-width: 580px;
+  max-width: 36.25rem;
   margin-bottom: 0.625rem;
   font-size: 1.75rem;
 }
 
 .feature-intro p,
 .second-article p,
-#platforms p {
+.platforms p {
   color: hsl(201, 11%, 66%);
   line-height: 1.5;
 }
 
 .feature-intro p {
-  max-width: 600px;
+  max-width: 37.5rem;
   margin-bottom: 1.25rem;
 }
 
@@ -137,7 +137,7 @@ h1 {
 
 .snippets-layout > img {
   width: 50%;
-  max-width: 752px;
+  max-width: 47rem;
   height: auto;
   margin-left: -5%;
 }
@@ -147,7 +147,7 @@ h1 {
   flex: 1;
   flex-direction: column;
   justify-content: center;
-  max-width: 420px;
+  max-width: 26.25rem;
   margin: 0 2.5rem 0 8%;
 }
 
@@ -164,7 +164,7 @@ h1 {
   line-height: 1.8;
 }
 
-#keep-track {
+.keep-track {
   margin-bottom: 6.25rem;
 }
 
@@ -181,17 +181,17 @@ h1 {
 }
 
 .second-article h2 {
-  max-width: 580px;
+  max-width: 36.25rem;
   margin-bottom: 1rem;
   font-size: 1.5625rem;
 }
 
 .second-article p {
-  max-width: 600px;
+  max-width:  37.5rem;
   margin-bottom: 2.5rem;
 }
 
-#access-clipboard img {
+.access-clipboard img {
   width: min(100%, 812px);
   height: auto;
 }
@@ -200,7 +200,7 @@ h1 {
    Workflow
 ========================= */
 
-#workflow-section {
+.workflow-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -214,7 +214,7 @@ h1 {
   line-height: 1.5;
 }
 
-#workflow-section h2 {
+.workflow-section h2 {
   margin-bottom: 1rem;
   font-size: 1.875rem;
 }
@@ -223,7 +223,7 @@ h1 {
   display: flex;
   justify-content: center;
   width: 100%;
-  max-width: 1100px;
+  max-width:68.75rem;
 }
 
 .workflow-item {
@@ -231,7 +231,7 @@ h1 {
   flex: 1;
   flex-direction: column;
   align-items: center;
-  max-width: 350px;
+  max-width:21.875rem;
   padding: 1.25rem;
   margin: 1.25rem;
 }
@@ -250,7 +250,7 @@ h1 {
    Companies
 ========================= */
 
-#companies {
+.companies {
   width: 100%;
   overflow: hidden;
 }
@@ -287,7 +287,7 @@ h1 {
    Platforms
 ========================= */
 
-#platforms {
+.platforms {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -295,20 +295,20 @@ h1 {
   text-align: center;
 }
 
-#platforms h2 {
+.platforms h2 {
   color: hsl(210, 10%, 33%);
 }
 
-#platforms p {
-  max-width: 600px;
+.platforms p {
+  max-width:  37.5rem;
   margin: 1.25rem 0;
 }
 
-#platforms > div {
+.platforms > div {
   text-align: center;
 }
 
-#platforms button {
+.platforms button {
   margin-bottom: 3.125rem;
 }
 
@@ -327,18 +327,19 @@ footer {
   margin-bottom: 0.625rem;
 }
 
-#logo {
+.footer-logo {
   width: 4.375rem;
   height: 4.375rem;
 }
 
 footer ul {
   display: grid;
-  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-template-columns: repeat(3, minmax(6.25rem, 1fr));
   gap: 15px 40px;
   padding: 0;
   margin-left: 5rem;
   list-style: none;
+  text-align: left;
 }
 
 footer li {
@@ -372,7 +373,7 @@ footer > div a {
    Attribution
 ========================= */
 
-#madeby {
+.attribution {
   padding: 0.625rem 1.25rem;
   background-color: aliceblue;
   text-align: center;
@@ -380,7 +381,7 @@ footer > div a {
   font-size: 0.80rem;
 }
 
-#madeby a {
+.attribution a {
   color: hsl(210, 10%, 33%);
 }
 
@@ -435,7 +436,7 @@ footer > div a {
 
   .snippet-details {
     width: 100%;
-    max-width: 600px;
+    max-width:  37.5rem;
     margin: 0;
     text-align: center;
   }
@@ -499,7 +500,7 @@ footer > div a {
     font-size: 2rem;
   }
 
-  #header-p {
+  .header-description {
     margin-top: 1.25rem;
   }
 
@@ -518,7 +519,7 @@ footer > div a {
   }
 
   .feature-intro h2,
-  #workflow-section h2 {
+  .workflow-section h2 {
     font-size: 1.75rem;
   }
 
@@ -529,7 +530,7 @@ footer > div a {
   }
 
   .snippet-details {
-    max-width: 500px;
+    max-width: 36.25rem;
   }
 
   /* Access Clipboard */
@@ -540,7 +541,7 @@ footer > div a {
 
   /* Workflow */
 
-  #workflow-section {
+  .workflow-section {
     margin-top: 5rem;
   }
 
@@ -551,16 +552,16 @@ footer > div a {
 
   /* Platforms */
 
-  #platforms > div {
+  .platforms > div {
     width: 100%;
   }
 
-  #platforms .btn {
+  .platforms .btn {
     width: min(85%, 420px);
     margin: 0.625rem auto;
   }
 
-  #platforms button:last-child {
+  .platforms button:last-child {
     margin-bottom: 3.125rem;
   }
 
@@ -573,7 +574,7 @@ footer > div a {
     text-align: center;
   }
 
-  #logo {
+  .footer-logo {
     width: 3.75rem;
     height: 3.75rem;
   }
@@ -597,7 +598,7 @@ footer > div a {
 
   /* Attribution */
 
-  #madeby {
+  .attribution {
     padding: 0.625rem 1.25rem;
     font-size: 0.75rem;
   }
