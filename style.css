@@ -11,9 +11,15 @@
 }
 
 body {
+  --heading-color: hsl(210, 10%, 33%);
+  --text-color: hsl(201, 11%, 66%);
+  --footer-text-color: hsl(202, 10%, 62%);
+  --ios-color: hsl(171, 66%, 44%);
+  --mac-color: hsl(233, 100%, 69%);
+  --footer-background: aliceblue;
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 1.125rem;
-  color: hsl(210, 10%, 33%);
+  color: var(--heading-color);
 }
 
 /* =========================
@@ -32,7 +38,7 @@ header {
 header img {
   width: 6.25rem;
   height: 6.25rem;
-  margin-top: 3.125rem;
+  margin-block-start: 3.125rem;
 }
 
 h1 {
@@ -45,7 +51,7 @@ h1 {
 .header-description {
   max-width: 35.625rem;
   margin: 1.25rem auto;
-  color: hsl(201, 11%, 66%);
+  color: var(--text-color);
   line-height: 1.5;
 }
 
@@ -83,11 +89,11 @@ h1 {
 }
 
 .btn-ios {
-  background-color: hsl(171, 66%, 44%);
+  background-color: var(--ios-color);
 }
 
 .btn-mac {
-  background-color: hsl(233, 100%, 69%);
+  background-color: var(--mac-color);
 }
 
 /* =========================
@@ -105,25 +111,25 @@ h1 {
 .feature-intro h2,
 .second-article h2,
 .workflow-section h2 {
-  color: hsl(210, 10%, 33%);
+  color: var(--heading-color);
 }
 
 .feature-intro h2 {
   max-width: 36.25rem;
-  margin-bottom: 0.625rem;
+  margin-block-end: 0.625rem;
   font-size: 1.75rem;
 }
 
 .feature-intro p,
 .second-article p,
 .platforms p {
-  color: hsl(201, 11%, 66%);
+  color: var(--text-color);
   line-height: 1.5;
 }
 
 .feature-intro p {
   max-width: 37.5rem;
-  margin-bottom: 1.25rem;
+  margin-block-end: 1.25rem;
 }
 
 /* =========================
@@ -139,7 +145,7 @@ h1 {
   width: 50%;
   max-width: 47rem;
   height: auto;
-  margin-left: -5%;
+  margin-inline-start: -5%;
 }
 
 .snippet-details {
@@ -153,19 +159,19 @@ h1 {
 
 .snippet-details h3 {
   margin: 0.625rem 0;
-  color: hsl(210, 10%, 33%);
+  color: var(--heading-color);
   font-size: 1.25rem;
   font-weight: 600;
 }
 
 .feature-description {
   margin: 0.625rem 0 1.875rem;
-  color: hsl(201, 11%, 66%);
+  color: var(--text-color);
   line-height: 1.8;
 }
 
 .keep-track {
-  margin-bottom: 6.25rem;
+  margin-block-end: 6.25rem;
 }
 
 /* =========================
@@ -182,13 +188,13 @@ h1 {
 
 .second-article h2 {
   max-width: 36.25rem;
-  margin-bottom: 1rem;
+  margin-block-end: 1rem;
   font-size: 1.5625rem;
 }
 
 .second-article p {
-  max-width:  37.5rem;
-  margin-bottom: 2.5rem;
+  max-width: 37.5rem;
+  margin-block-end: 2.5rem;
 }
 
 .access-clipboard img {
@@ -209,13 +215,13 @@ h1 {
 }
 
 .workflow-header p {
-  margin-bottom: 1.25rem;
-  color: hsl(201, 11%, 66%);
+  margin-block-end: 1.25rem;
+  color: var(--text-color);
   line-height: 1.5;
 }
 
 .workflow-section h2 {
-  margin-bottom: 1rem;
+  margin-block-end: 1rem;
   font-size: 1.875rem;
 }
 
@@ -223,7 +229,7 @@ h1 {
   display: flex;
   justify-content: center;
   width: 100%;
-  max-width:68.75rem;
+  max-width: 68.75rem;
 }
 
 .workflow-item {
@@ -231,18 +237,18 @@ h1 {
   flex: 1;
   flex-direction: column;
   align-items: center;
-  max-width:21.875rem;
+  max-width: 21.875rem;
   padding: 1.25rem;
   margin: 1.25rem;
 }
 
 .workflow-item h3 {
   margin: 1.25rem 0 0.625rem;
-  color: hsl(210, 10%, 33%);
+  color: var(--heading-color);
 }
 
 .workflow-item p {
-  color: hsl(201, 11%, 66%);
+  color: var(--text-color);
   line-height: 1.5;
 }
 
@@ -296,11 +302,11 @@ h1 {
 }
 
 .platforms h2 {
-  color: hsl(210, 10%, 33%);
+  color: var(--heading-color);
 }
 
 .platforms p {
-  max-width:  37.5rem;
+  max-width: 37.5rem;
   margin: 1.25rem 0;
 }
 
@@ -309,7 +315,7 @@ h1 {
 }
 
 .platforms button {
-  margin-bottom: 3.125rem;
+  margin-block-end: 3.125rem;
 }
 
 /* =========================
@@ -318,18 +324,7 @@ h1 {
 
 footer {
   padding: 1.5625rem 10%;
-  background-color: aliceblue;
-}
-
-.footer-content {
-  display: flex;
-  align-items: center;
-  margin-bottom: 0.625rem;
-}
-
-.footer-logo {
-  width: 4.375rem;
-  height: 4.375rem;
+  background-color: var(--footer-background);
 }
 
 footer ul {
@@ -337,7 +332,7 @@ footer ul {
   grid-template-columns: repeat(3, minmax(6.25rem, 1fr));
   gap: 0.9375rem 2.5rem;
   padding: 0;
-  margin-left: 5rem;
+  margin-inline-start: 5rem;
   list-style: none;
 }
 
@@ -346,12 +341,8 @@ footer li {
 }
 
 footer li a {
-  color: hsl(202, 10%, 62%);
+  color: var(--footer-text-color);
   text-decoration: none;
-}
-
-footer li a:hover {
-  color: hsl(210, 10%, 33%);
 }
 
 footer > div img {
@@ -362,26 +353,37 @@ footer > div a {
   line-height: 0;
 }
 
+.footer-content {
+  display: flex;
+  align-items: center;
+  margin-block-end: 0.625rem;
+}
+
+.footer-logo {
+  width: 4.375rem;
+  height: 4.375rem;
+}
+
 .social-links {
   display: flex;
   gap: 0.9375rem;
-  margin-left: auto;
+  margin-inline-start: auto;
 }
-
-/* =========================
-   Attribution
-========================= */
 
 .attribution {
   padding: 0.625rem 1.25rem;
-  background-color: aliceblue;
+  background-color: var(--footer-background);
   text-align: center;
-  color: hsl(202, 10%, 62%);
+  color: var(--footer-text-color);
   font-size: 0.80rem;
 }
 
 .attribution a {
-  color: hsl(210, 10%, 33%);
+  color: var(--heading-color);
+}
+
+footer li a:hover {
+  color: var(--heading-color);
 }
 
 /* =========================
@@ -435,7 +437,7 @@ footer > div a {
 
   .snippet-details {
     width: 100%;
-    max-width:  37.5rem;
+    max-width: 37.5rem;
     margin: 0;
     text-align: center;
   }
@@ -445,7 +447,7 @@ footer > div a {
   }
 
   .feature-description {
-    margin-bottom: 2.1875rem;
+    margin-block-end: 2.1875rem;
   }
 
   /* Workflow */
@@ -468,13 +470,13 @@ footer > div a {
 
   footer ul {
     gap: 0.9375rem 1.5625rem;
-    margin-left: 3.125rem;
+    margin-inline-start: 3.125rem;
   }
 
   .social-links {
     gap: 0.75rem;
     /* flex-direction: column; */
-    margin-left: 0
+    margin-inline-start: 0
   }
 }
 
@@ -492,7 +494,7 @@ footer > div a {
   }
 
   header img {
-    margin-top: 2.5rem;
+    margin-block-start: 2.5rem;
   }
 
   h1 {
@@ -500,7 +502,7 @@ footer > div a {
   }
 
   .header-description {
-    margin-top: 1.25rem;
+    margin-block-start: 1.25rem;
   }
 
   /* Buttons */
@@ -514,7 +516,7 @@ footer > div a {
   /* Feature Intro */
 
   .feature-intro {
-    margin-top: 4.375rem;
+    margin-block-start: 4.375rem;
   }
 
   .feature-intro h2,
@@ -541,7 +543,7 @@ footer > div a {
   /* Workflow */
 
   .workflow-section {
-    margin-top: 5rem;
+    margin-block-start: 5rem;
   }
 
   .workflow-item {
@@ -561,7 +563,7 @@ footer > div a {
   }
 
   .platforms button:last-child {
-    margin-bottom: 3.125rem;
+    margin-block-end: 3.125rem;
   }
 
   /* Footer Mobile */
@@ -591,7 +593,7 @@ footer > div a {
   }
 
   .social-links {
-    margin-left: 0;
+    margin-inline-start: 0;
     gap: 1.25rem;
   }
 
