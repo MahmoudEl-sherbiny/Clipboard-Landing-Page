@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 
-
 /* =========================
    Global Styles
 ========================= */
@@ -13,17 +12,16 @@
 
 body {
   font-family: "Bai Jamjuree", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: hsl(210, 10%, 33%);
 }
-
 
 /* =========================
    Header
 ========================= */
 
 header {
-  padding: 20px;
+  padding: 1.25rem;
   text-align: center;
   background-image: url("images/bg-header-desktop.png");
   background-repeat: no-repeat;
@@ -34,23 +32,22 @@ header {
 header img {
   width: 100px;
   height: 100px;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 h1 {
   max-width: 650px;
-  margin: 20px auto 0;
-  font-size: 40px;
+  margin: 1.25rem auto 0;
+  font-size: 2.5rem;
   line-height: 1.2;
 }
 
 #header-p {
   max-width: 570px;
-  margin: 20px auto;
+  margin: 1.25rem auto;
   color: hsl(201, 11%, 66%);
   line-height: 1.5;
 }
-
 
 /* =========================
    Buttons
@@ -58,13 +55,13 @@ h1 {
 
 .btn {
   display: inline-block;
-  margin: 30px 5px 0;
-  padding: 14px 30px;
+  margin: 1.875rem 0.3125rem 0;
+  padding: 0.875rem 1.875rem;
   border: none;
   border-radius: 30px;
   color: white;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.123);
@@ -93,7 +90,6 @@ h1 {
   background-color: hsl(233, 100%, 69%);
 }
 
-
 /* =========================
    Main - Feature Intro
 ========================= */
@@ -102,7 +98,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 80px 20px 60px;
+  margin: 5rem 1.25rem 3.75rem;
   text-align: center;
 }
 
@@ -114,8 +110,8 @@ h1 {
 
 .feature-intro h2 {
   max-width: 580px;
-  margin-bottom: 10px;
-  font-size: 30px;
+  margin-bottom: 0.625rem;
+  font-size: 1.75rem;
 }
 
 .feature-intro p,
@@ -127,9 +123,8 @@ h1 {
 
 .feature-intro p {
   max-width: 600px;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
-
 
 /* =========================
    Snippets
@@ -153,26 +148,25 @@ h1 {
   flex-direction: column;
   justify-content: center;
   max-width: 420px;
-  margin: 0 40px 0 8%;
+  margin: 0 2.5rem 0 8%;
 }
 
 .snippet-details h3 {
-  margin: 10px 0;
+  margin: 0.625rem 0;
   color: hsl(210, 10%, 33%);
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
 .feature-description {
-  margin: 10px 0 30px;
+  margin: 0.625rem 0 1.875rem;
   color: hsl(201, 11%, 66%);
   line-height: 1.8;
 }
 
 #keep-track {
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
 }
-
 
 /* =========================
    Access Clipboard
@@ -182,26 +176,25 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 1.25rem;
   text-align: center;
 }
 
 .second-article h2 {
   max-width: 580px;
-  margin-bottom: 16px;
-  font-size: 25px;
+  margin-bottom: 1rem;
+  font-size: 1.5625rem;
 }
 
 .second-article p {
   max-width: 600px;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 #access-clipboard img {
   width: min(100%, 812px);
   height: auto;
 }
-
 
 /* =========================
    Workflow
@@ -211,19 +204,19 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px 20px 30px;
+  margin: 6.25rem 1.25rem 1.875rem;
   text-align: center;
 }
 
 .workflow-header p {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   color: hsl(201, 11%, 66%);
   line-height: 1.5;
 }
 
 #workflow-section h2 {
-  margin-bottom: 16px;
-  font-size: 30px;
+  margin-bottom: 1rem;
+  font-size: 1.875rem;
 }
 
 .workflow {
@@ -239,12 +232,12 @@ h1 {
   flex-direction: column;
   align-items: center;
   max-width: 350px;
-  padding: 20px;
-  margin: 20px;
+  padding: 1.25rem;
+  margin: 1.25rem;
 }
 
 .workflow-item h3 {
-  margin: 20px 0 10px;
+  margin: 1.25rem 0 0.625rem;
   color: hsl(210, 10%, 33%);
 }
 
@@ -252,7 +245,6 @@ h1 {
   color: hsl(201, 11%, 66%);
   line-height: 1.5;
 }
-
 
 /* =========================
    Companies
@@ -268,7 +260,7 @@ h1 {
   align-items: center;
   width: max-content;
   gap: 80px;
-  margin: 40px 0;
+  margin: 2.5rem 0;
   animation: scroll 15s linear infinite;
 }
 
@@ -276,7 +268,8 @@ h1 {
   flex-shrink: 0;
 }
 
-/* .companies-track:hover {
+/* 
+.companies-track:hover {
   animation-play-state: paused;
 } */
 
@@ -290,7 +283,6 @@ h1 {
   }
 }
 
-
 /* =========================
    Platforms
 ========================= */
@@ -299,7 +291,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 1.25rem;
   text-align: center;
 }
 
@@ -309,7 +301,7 @@ h1 {
 
 #platforms p {
   max-width: 600px;
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 
 #platforms > div {
@@ -317,23 +309,22 @@ h1 {
 }
 
 #platforms button {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
-
 
 /* =========================
    Footer
 ========================= */
 
 footer {
-  padding: 25px 10%;
+  padding: 1.5625rem 10%;
   background-color: aliceblue;
 }
 
-.footer-content{
+.footer-content {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 #logo {
@@ -346,12 +337,12 @@ footer ul {
   grid-template-columns: repeat(3, minmax(100px, 1fr));
   gap: 15px 40px;
   padding: 0;
-  margin-left: 80px;
+  margin-left: 5rem;
   list-style: none;
 }
 
 footer li {
-  font-size: 14px;
+  font-size: 0.80rem;
 }
 
 footer li a {
@@ -377,17 +368,16 @@ footer > div a {
   line-height: 0;
 }
 
-
 /* =========================
    Attribution
 ========================= */
 
 #madeby {
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   background-color: aliceblue;
   text-align: center;
   color: hsl(202, 10%, 62%);
-  font-size: 14px;
+  font-size: 0.80rem;
 }
 
 #madeby a {
@@ -413,17 +403,17 @@ footer > div a {
   .companies-track {
     animation: none;
   }
-    .reveal {
+
+  .reveal {
     opacity: 1;
     transform: none;
     transition: none;
   }
-   .btn{
+
+  .btn {
     transition: none;
   }
 }
-
-
 
 /* =========================
    Tablet
@@ -435,12 +425,12 @@ footer > div a {
 
   .snippets-layout {
     flex-direction: column;
-    padding: 0 30px;
+    padding: 0 1.875rem;
   }
 
   .snippets-layout > img {
     width: min(100%, 752px);
-    margin: 0 0 50px;
+    margin: 0 0 3.125rem;
   }
 
   .snippet-details {
@@ -455,9 +445,8 @@ footer > div a {
   }
 
   .feature-description {
-    margin-bottom: 35px;
+    margin-bottom: 2.1875rem;
   }
-
 
   /* Workflow */
 
@@ -471,32 +460,29 @@ footer > div a {
     max-width: none;
   }
 
-
   /* Footer */
 
   footer {
-    padding: 25px 5%;
+    padding: 1.5625rem 5%;
   }
 
   footer ul {
     gap: 15px 25px;
-    margin-left: 50px;
+    margin-left: 3.125rem;
   }
 
   .social-links {
     gap: 12px;
-    flex-direction: column;
+    /* flex-direction: column; */
     margin-left: 0
-
   }
 }
-
 
 /* =========================
    Mobile
 ========================= */
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
 
   /* Header */
 
@@ -506,68 +492,62 @@ footer > div a {
   }
 
   header img {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 
   h1 {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   #header-p {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
-
 
   /* Buttons */
 
   .btn {
     display: block;
     width: min(85%, 420px);
-    margin: 10px auto;
+    margin: 0.625rem auto;
   }
-
 
   /* Feature Intro */
 
   .feature-intro {
-    margin-top: 70px;
+    margin-top: 4.375rem;
   }
 
   .feature-intro h2,
   #workflow-section h2 {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
-
 
   /* Snippets */
 
   .snippets-layout {
-    padding: 0 20px;
+    padding: 0 1.25rem;
   }
 
   .snippet-details {
     max-width: 500px;
   }
 
-
   /* Access Clipboard */
 
   .second-article {
-    padding: 0 20px;
+    padding: 0 1.25rem;
   }
-
 
   /* Workflow */
 
   #workflow-section {
-    margin-top: 80px;
+    margin-top: 5rem;
   }
 
   .workflow-item {
-    margin: 15px 0;
-    padding: 15px;
+    margin: 0.9375rem 0;
+    padding: 0.9375rem;
   }
-
 
   /* Platforms */
 
@@ -577,22 +557,19 @@ footer > div a {
 
   #platforms .btn {
     width: min(85%, 420px);
-    margin: 10px auto;
+    margin: 0.625rem auto;
   }
 
   #platforms button:last-child {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
   }
 
-
-  /* =========================
-     Footer Mobile
-  ========================= */
+  /* Footer Mobile */
 
   .footer-content {
     flex-direction: column;
     gap: 30px;
-    padding: 35px 20px;
+    padding: 2.1875rem 1.25rem;
     text-align: center;
   }
 
@@ -610,7 +587,7 @@ footer > div a {
   }
 
   footer li {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .social-links {
@@ -618,11 +595,10 @@ footer > div a {
     gap: 20px;
   }
 
-
   /* Attribution */
 
   #madeby {
-    padding: 10px 20px;
-    font-size: 12px;
+    padding: 0.625rem 1.25rem;
+    font-size: 0.75rem;
   }
 }
