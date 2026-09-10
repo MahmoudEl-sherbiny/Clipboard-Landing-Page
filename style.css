@@ -30,8 +30,8 @@ header {
 }
 
 header img {
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
   margin-top: 3.125rem;
 }
 
@@ -268,7 +268,7 @@ h1 {
   flex-shrink: 0;
 }
 
-/* 
+/* User later re-commented this hover pause while troubleshooting:
 .companies-track:hover {
   animation-play-state: paused;
 } */
@@ -328,8 +328,8 @@ footer {
 }
 
 #logo {
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
 }
 
 footer ul {
@@ -574,8 +574,8 @@ footer > div a {
   }
 
   #logo {
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
   }
 
   footer ul {
