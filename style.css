@@ -13,7 +13,7 @@
 body {
   --heading-color: hsl(210, 10%, 33%);
   --text-color: hsl(201, 11%, 66%);
-  --footer-text-color: hsl(202, 10%, 62%);
+  --footer-text-color: hsl(202, 10%, 33%);
   --ios-color: hsl(171, 66%, 44%);
   --mac-color: hsl(233, 100%, 69%);
   --footer-background: aliceblue;
@@ -337,7 +337,7 @@ footer ul {
 }
 
 footer li {
-  font-size: 0.80rem;
+  font-size: 0.8rem;
 }
 
 footer li a {
@@ -345,11 +345,7 @@ footer li a {
   text-decoration: none;
 }
 
-footer > div img {
-  margin: 0;
-}
-
-footer > div a {
+.social-links a {
   line-height: 0;
 }
 
@@ -375,7 +371,7 @@ footer > div a {
   background-color: var(--footer-background);
   text-align: center;
   color: var(--footer-text-color);
-  font-size: 0.80rem;
+  font-size: 0.8rem;
 }
 
 .attribution a {
@@ -389,12 +385,6 @@ footer li a:hover {
 /* =========================
    Scroll Animation
 ========================= */
-
-.reveal {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
-}
 
 .reveal.show {
   opacity: 1;
@@ -417,12 +407,20 @@ footer li a:hover {
   }
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .js .reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition:
+      opacity 0.8s ease,
+      transform 0.8s ease;
+  }
+}
 /* =========================
    Tablet
 ========================= */
 
 @media (max-width: 56.25rem) {
-
   /* Snippets */
 
   .snippets-layout {
@@ -475,8 +473,7 @@ footer li a:hover {
 
   .social-links {
     gap: 0.75rem;
-    /* flex-direction: column; */
-    margin-inline-start: 0
+    margin-inline-start: 0;
   }
 }
 
@@ -485,7 +482,6 @@ footer li a:hover {
 ========================= */
 
 @media (max-width: 37.5rem) {
-
   /* Header */
 
   header {
