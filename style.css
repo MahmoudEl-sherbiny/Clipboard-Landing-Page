@@ -418,6 +418,9 @@ footer > div a {
     transform: none;
     transition: none;
   }
+   .btn{
+    transition: none;
+  }
 }
 
 
